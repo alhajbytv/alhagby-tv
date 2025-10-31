@@ -1,9 +1,13 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
-<title>Alhagby TV - البث المباشر للقنوات العربية والرياضية⚽| مباريات حية</title>
+<div class="brand">
+    <img src="https://i.ibb.co/Xx7NZxnV/432048328-112837030142332274-4788143613177287971-n.jpg" class="logo" alt="Alhagby TV شعار" style="width: 50px; height: 50px; border-radius: 14px; object-fit: cover; border: 2px solid rgba(63, 176, 255, 0.3); box-shadow: 0 4px 15px rgba(63, 176, 255, 0.3);">
+    <div>
+        <div class="title">Alhagby TV</div>
+        <div class="subtitle small">البث المباشر للقنوات العربية والرياضية</div>
+    </div>
+</div>
 <meta name="description" content="شاهد البث المباشر لقنوات بي إن سبورت والعربية والرياضية مجانا - مباريات حية مجاناً  - Alhagby TV  ينقل لك أهم الأحداث الرياضية العربية والعالمية مجانا">
 <meta name="google-site-verification" content="wYh4YYkcKSYVS8UOa2cJ2LoiFKBQwlRPLj1sWoRuxCk" />
 <meta charset="utf-8"/>
