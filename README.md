@@ -1,9 +1,11 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-<!-- 🔐 كود تحقق ملكية جوجل -->
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<title>Alhagby TV - البث المباشر للقنوات العربية والرياضية⚽| مباريات حية</title>
+<meta name="description" content="شاهد البث المباشر لقنوات بي إن سبورت والعربية والرياضية مجانا - مباريات حية مجاناً  - Alhagby TV  ينقل لك أهم الأحداث الرياضية العربية والعالمية مجانا">
 <meta name="google-site-verification" content="wYh4YYkcKSYVS8UOa2cJ2LoiFKBQwlRPLj1sWoRuxCk" />
-  
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <title>Alhagby TV — القنوات العربية والرياضية</title>
