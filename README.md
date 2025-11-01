@@ -2331,7 +2331,6 @@ function loadSettings() {
     
     html += '<div class="note" style="text-align:center;margin-top:20px">';
     html += 'تطبيق 
-    رابط التحميل https://www.appcreator24.com/app3769347-7n2g08  
      Alhagby TV - جميع الحقوق محفوظة 2025';
     html += '</div>';
     
