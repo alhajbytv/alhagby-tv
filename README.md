@@ -1,15 +1,15 @@
-!doctype html>
+<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <title>Alhagby TV - البث المباشر للقنوات العربية والرياضية | مباريات حية</title>
-<meta name="description" content="شاهد البث المباشر لقنوات بي إن سبورت والعربية والرياضية الحاجبي تيفي- مباريات حية مجاناً الحاجبي تيفي - Alhagby TVينقل لك أهم الأحداث الرياضية العربية والعالمية الحاجبي تيفي">
+<meta name="description" content="شاهد البث المباشر لقنوات بي إن سبورت والعربية والرياضية الحاجبي تيفي - مباريات حية مجاناً الحاجبي تيفي - Alhagby TV ينقل لك أهم الأحداث الرياضية العربية والعالمية ">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <title>Alhagby TV — القنوات العربية والرياضية</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<script src="https://cdn.jsdelivr.net/npm/hls.js@1.4.9/dist/hls.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest/dist/hls.min.js"></script>
 <style>
 :root{
     --bg-dark: #0a1128;
@@ -1208,7 +1208,7 @@ input:checked + .slider:before {
     <div class="welcome-content">
         <div class="welcome-logo">A</div>
         <h1 class="welcome-title"> الحاجبي تيفي Alhagby TV</h1>
-        <p class="welcome-subtitle"> البث المباشر للقنوات العربية والرياضية الحاجبي تيفي<br>استمتع بأفضل المحتوى الرياضي والعربي</p>
+        <p class="welcome-subtitle"> البث المباشر للقنوات العربية والرياضية الحاجبي تيفي<br>استمتع بأفضل المحتوى الرياضي والعربي </p>
         
         <div class="welcome-features">
             <div class="feature-item">
@@ -1310,9 +1310,9 @@ input:checked + .slider:before {
     <div class="brand">
         <div class="logo">A</div>
         <div>
-            <div class="title"> الحاجبي تيفي Alhagby TV</div>
+            <div class="title">الحاجبي تيفي Alhagby TV</div>
             <div class="subtitle small">البث المباشر للقنوات العربية والرياضية 
-           https://www.appcreator24.com/app3769347-7n2g08 رابط التحميل </div>
+           https://www.appcreator24.com/app3769347-7n2g08 رابط التحميل</div>
         </div>
     </div>
     <div style="display:flex;gap:10px;align-items:center">
@@ -1492,13 +1492,12 @@ const sportsSources = [
 
 // المتغيرات العامة
 let hlsInstance = null;
-let currentUser = null;
+let currentUserData = null;
 let isDarkMode = true;
 let currentView = 'leagues';
 
-// بيانات المستخدمين
-const users = JSON.parse(localStorage.getItem('alhagby_users')) || [];
-let currentUserData = JSON.parse(localStorage.getItem('alhagby_current_user')) || null;
+// بيانات المستخدمين - الإصلاح: تعريف المتغير بشكل صحيح
+let users = JSON.parse(localStorage.getItem('alhagby_users')) || [];
 const isGuest = localStorage.getItem('alhagby_guest') === 'true';
 
 // دوال نظام التسجيل
@@ -2327,15 +2326,24 @@ function loadSettings() {
     html += '<button class="contact-btn" onclick="contactUs()" style="margin:5px">';
     html += '<i class="fas fa-envelope"></i> تواصل معنا';
     html += '</button>';
+    // ⭐⭐ الإضافة الجديدة: زر تحميل التطبيق ⭐⭐
+    html += '<button class="contact-btn" onclick="downloadApp()" style="margin:5px">';
+    html += '<i class="fas fa-download"></i> تحميل التطبيق';
+    html += '</button>';
     html += '</div>';
     
     html += '<div class="note" style="text-align:center;margin-top:20px">';
-    html += 'تطبيق 
-     Alhagby TV - جميع الحقوق محفوظة 2025';
+    html += 'تطبيق Alhagby TV - جميع الحقوق محفوظة 2025';
     html += '</div>';
     
     html += '</div>';
     document.getElementById('mainContent').innerHTML = html;
+}
+
+// ⭐⭐ الإضافة الجديدة: دالة تحميل التطبيق ⭐⭐
+function downloadApp() {
+    window.open('https://www.appcreator24.com/app3769347-7n2g08', '_blank');
+    showNotification('جاري التوجيه لتحميل التطبيق...');
 }
 
 function toggleDarkMode() {
