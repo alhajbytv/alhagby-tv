@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
-<title> الحاجبي تيفي Alhagby TV - البث المباشر للقنوات العربية والرياضية | مباريات حية</title>
-<meta name="description" content="شاهد البث المباشر لقنوات بي إن سبورت والعربية والرياضية الحاجبي تيفي- مباريات حية مجاناً الحاجبي تيفي - Alhagby TV ينقل لك أهم الأحداث الرياضية العربية والعالمية الحاجبي تيفي">
+<title>Alhagby TV - البث المباشر للقنوات العربية والرياضية | مباريات حية</title>
+<meta name="description" content="شاهد البث المباشر لقنوات بي إن سبورت والعربية والرياضية الحاجبي تيفي- مباريات حية مجاناً الحاجبي تيفي - Alhagby TVينقل لك أهم الأحداث الرياضية العربية والعالمية الحاجبي تيفي">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
 <title>Alhagby TV — القنوات العربية والرياضية</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -1207,8 +1207,8 @@ input:checked + .slider:before {
 <div class="welcome-screen" id="welcomeScreen">
     <div class="welcome-content">
         <div class="welcome-logo">A</div>
-        <h1 class="welcome-title"> الحاجبي تيفيAlhagby TV</h1>
-        <p class="welcome-subtitle">البث المباشر للقنوات العربية والرياضية الحاجبي تيفي<br>استمتع بأفضل المحتوى الرياضي والعربي</p>
+        <h1 class="welcome-title"> الحاجبي تيفي Alhagby TV</h1>
+        <p class="welcome-subtitle"> البث المباشر للقنوات العربية والرياضية الحاجبي تيفي<br>استمتع بأفضل المحتوى الرياضي والعربي</p>
         
         <div class="welcome-features">
             <div class="feature-item">
